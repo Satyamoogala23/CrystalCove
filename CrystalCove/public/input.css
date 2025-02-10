@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textstroke {
+  -webkit-text-stroke: 3px rgb(232, 90, 10);
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+
+  h1 {
+    @apply font-bold font-serif text-6xl text-orange;
+  }
+
+  h2 {
+    @apply font-serif font-bold text-5xl;
+  }
+}
